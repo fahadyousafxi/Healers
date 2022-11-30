@@ -163,7 +163,7 @@ class MainDrawerWidget extends StatelessWidget {
           ),
           DrawerLinkWidget(
             icon: Icons.build_circle_outlined,
-            text: "My Salons",
+            text: "My work places",
             onTap: (e) {
               Get.offAndToNamed(Routes.SALONS);
             },
@@ -251,20 +251,20 @@ class MainDrawerWidget extends StatelessWidget {
               Get.offAndToNamed(Routes.SETTINGS);
             },
           ),
-          DrawerLinkWidget(
-            icon: Icons.translate_outlined,
-            text: "Languages",
-            onTap: (e) {
-              Get.offAndToNamed(Routes.SETTINGS_LANGUAGE);
-            },
-          ),
-          DrawerLinkWidget(
-            icon: Icons.brightness_6_outlined,
-            text: Get.isDarkMode ? "Light Theme" : "Dark Theme",
-            onTap: (e) {
-              Get.offAndToNamed(Routes.SETTINGS_THEME_MODE);
-            },
-          ),
+          // DrawerLinkWidget(
+          //   icon: Icons.translate_outlined,
+          //   text: "Languages",
+          //   onTap: (e) {
+          //     Get.offAndToNamed(Routes.SETTINGS_LANGUAGE);
+          //   },
+          // ),
+          // DrawerLinkWidget(
+          //   icon: Icons.brightness_6_outlined,
+          //   text: Get.isDarkMode ? "Light Theme" : "Dark Theme",
+          //   onTap: (e) {
+          //     Get.offAndToNamed(Routes.SETTINGS_THEME_MODE);
+          //   },
+          // ),
           ListTile(
             dense: true,
             title: Text(

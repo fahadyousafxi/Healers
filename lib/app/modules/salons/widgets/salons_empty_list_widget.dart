@@ -70,7 +70,7 @@ class SalonsEmptyListWidget extends StatelessWidget {
         Opacity(
           opacity: 0.3,
           child: Text(
-            "You don't have any salon teams!".tr,
+            "You don't have any healing team".tr,
             textAlign: TextAlign.center,
             style: Get.textTheme.headline4,
           ),
@@ -79,7 +79,7 @@ class SalonsEmptyListWidget extends StatelessWidget {
         BlockButtonWidget(
           color: Get.theme.colorScheme.secondary,
           text: Text(
-            "Become a Salon Owner".tr,
+            "Become a Healer".tr,
             style: Get.textTheme.headline6.merge(TextStyle(color: Get.theme.primaryColor)),
           ).paddingSymmetric(horizontal: 20, vertical: 3),
           onPressed: () => {Get.offAndToNamed(Routes.SALON_ADDRESSES_FORM)},

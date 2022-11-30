@@ -142,20 +142,20 @@ class AccountView extends GetView<AccountController> {
                       Get.toNamed(Routes.SETTINGS);
                     },
                   ),
-                  AccountLinkWidget(
-                    icon: Icon(Icons.translate_outlined, color: Get.theme.colorScheme.secondary),
-                    text: Text("Languages".tr),
-                    onTap: (e) {
-                      Get.toNamed(Routes.SETTINGS_LANGUAGE);
-                    },
-                  ),
-                  AccountLinkWidget(
-                    icon: Icon(Icons.brightness_6_outlined, color: Get.theme.colorScheme.secondary),
-                    text: Text("Theme Mode".tr),
-                    onTap: (e) {
-                      Get.toNamed(Routes.SETTINGS_THEME_MODE);
-                    },
-                  ),
+                  // AccountLinkWidget(
+                  //   icon: Icon(Icons.translate_outlined, color: Get.theme.colorScheme.secondary),
+                  //   text: Text("Languages".tr),
+                  //   onTap: (e) {
+                  //     Get.toNamed(Routes.SETTINGS_LANGUAGE);
+                  //   },
+                  // ),
+                  // AccountLinkWidget(
+                  //   icon: Icon(Icons.brightness_6_outlined, color: Get.theme.colorScheme.secondary),
+                  //   text: Text("Theme Mode".tr),
+                  //   onTap: (e) {
+                  //     Get.toNamed(Routes.SETTINGS_THEME_MODE);
+                  //   },
+                  // ),
                 ],
               ),
             ),

@@ -36,7 +36,7 @@ class BookingAddressChipWidget extends StatelessWidget {
               margin: EdgeInsetsDirectional.only(end: 5),
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 0.5),
               child: Text(
-                _booking.atSalon ? "At Salon".tr : (_booking.address.description == '' ? "My Address".tr : _booking.address.description),
+                _booking.atSalon ? "At Healer".tr : (_booking.address.description == '' ? "My Address".tr : _booking.address.description),
                 textScaleFactor: 1,
                 style: Get.textTheme.bodyText1,
               ),

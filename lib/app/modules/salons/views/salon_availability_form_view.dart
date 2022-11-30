@@ -90,7 +90,7 @@ class SalonAvailabilityFormView extends GetView<SalonAvailabilityFormController>
                   ),
                   StepWidget(
                     title: Text(
-                      "Salon Details".tr,
+                      "Healer Details".tr,
                     ),
                     color: Get.theme.focusColor,
                     index: Text("2", style: TextStyle(color: Get.theme.primaryColor)),

@@ -30,7 +30,7 @@ class SalonsView extends GetView<SalonsController> {
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       appBar: AppBar(
         title: Text(
-          "My Salons".tr,
+          "My work places".tr,
           style: Get.textTheme.headline6,
         ),
         centerTitle: true,

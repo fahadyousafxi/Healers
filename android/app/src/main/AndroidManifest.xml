@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smartersvision.beauty_salons_owner">
+    package="com.thesixthsense.healers">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -12,13 +12,13 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-            android:label="Beauty Salons Owner"
+            android:label="Healers"
             android:name="${applicationName}"
             android:icon="@mipmap/ic_notification"
             android:usesCleartextTraffic="true">
 
         <meta-data android:name="com.google.android.geo.API_KEY"
-                   android:value="AIzaSyDdyth2EiAjU9m9eE_obC5fnTY1yeVNTJU"/>
+                   android:value="AIzaSyAS59nq6wHJfBLQna2G7fW1cwAyK3ChIeo"/>
 
         <meta-data
                 android:name="com.google.firebase.messaging.default_notification_icon"

@@ -65,7 +65,7 @@ class RegisterView extends GetView<AuthController> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            "Welcome to the best salon service system!".tr,
+                            "Welcome to Healers App".tr,
                             style: Get.textTheme.caption.merge(TextStyle(color: Get.theme.primaryColor)),
                             textAlign: TextAlign.center,
                           ),

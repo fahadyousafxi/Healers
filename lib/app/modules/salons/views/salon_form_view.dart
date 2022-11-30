@@ -126,7 +126,7 @@ class SalonFormView extends GetView<SalonFormController> {
                     ),
                     StepWidget(
                       title: Text(
-                        "Salon Details".tr,
+                        "Healer Details".tr,
                       ),
                       index: Text("2", style: TextStyle(color: Get.theme.primaryColor)),
                     ),
@@ -139,7 +139,7 @@ class SalonFormView extends GetView<SalonFormController> {
                     ),
                   ],
                 ),
-                Text("Salon details".tr, style: Get.textTheme.headline5).paddingOnly(top: 25, bottom: 0, right: 22, left: 22),
+                Text("Healer Details".tr, style: Get.textTheme.headline5).paddingOnly(top: 25, bottom: 0, right: 22, left: 22),
                 Text("Fill the following details and save them".tr, style: Get.textTheme.caption).paddingSymmetric(horizontal: 22, vertical: 5),
                 Obx(() {
                   return ImagesFieldWidget(

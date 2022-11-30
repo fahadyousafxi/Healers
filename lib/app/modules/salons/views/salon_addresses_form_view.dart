@@ -24,7 +24,7 @@ class SalonAddressesFormView extends GetView<SalonAddressesFormController> {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "Salon Addresses".tr,
+            "Healer Addresses".tr,
             style: context.textTheme.headline6,
           ),
           centerTitle: true,
@@ -96,7 +96,7 @@ class SalonAddressesFormView extends GetView<SalonAddressesFormController> {
                 ),
                 StepWidget(
                   title: Text(
-                    "Salon Details".tr,
+                    "Healer Details".tr,
                   ),
                   color: Get.theme.focusColor,
                   index: Text("2", style: TextStyle(color: Get.theme.primaryColor)),

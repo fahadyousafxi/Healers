@@ -62,7 +62,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.smartersvision.beauty_salons_owner"
+        applicationId "com.thesixthsense.healers"
         minSdkVersion 20
         targetSdkVersion 33
         multiDexEnabled true
