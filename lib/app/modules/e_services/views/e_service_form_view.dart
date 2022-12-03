@@ -398,7 +398,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                               CheckboxListTile(
                                 value: controller.eService.value.enableAtSalon ?? false,
                                 selected: controller.eService.value.enableAtSalon ?? false,
-                                title: Text("Enable Booking At Salon".tr),
+                                title: Text("Enable Booking At Healer".tr),
                                 activeColor: Get.theme.colorScheme.secondary,
                                 controlAffinity: ListTileControlAffinity.trailing,
                                 onChanged: (checked) {
