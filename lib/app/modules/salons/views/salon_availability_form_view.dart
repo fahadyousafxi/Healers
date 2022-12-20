@@ -25,7 +25,7 @@ class SalonAvailabilityFormView extends GetView<SalonAvailabilityFormController>
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "Salon Availability".tr,
+            "Healer Availability".tr,
             style: context.textTheme.headline6,
           ),
           centerTitle: true,
