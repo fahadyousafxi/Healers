@@ -31,12 +31,13 @@ class StatisticCarouselItemWidget extends StatelessWidget {
               style: Get.textTheme.headline2.merge(TextStyle(height: 1)),
             ),
           SizedBox(height: 8),
-          Text(
+          Text(  /// Salons team
             statistic.description.tr,
             textAlign: TextAlign.center,
             maxLines: 3,
             style: Get.textTheme.caption,
           )
+
         ],
       ),
     );

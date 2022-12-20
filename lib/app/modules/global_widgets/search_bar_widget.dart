@@ -24,7 +24,7 @@ class SearchBarWidget extends StatelessWidget {
           ),
           Expanded(
             child: Text(
-              "Search for salon services...".tr,
+              "Search for Healer services...".tr,
               maxLines: 1,
               softWrap: false,
               overflow: TextOverflow.fade,

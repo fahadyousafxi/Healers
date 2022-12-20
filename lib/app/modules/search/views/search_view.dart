@@ -62,7 +62,7 @@ class SearchView extends GetView<SearchController> {
                   },
                   autofocus: true,
                   cursorColor: Get.theme.focusColor,
-                  decoration: Ui.getInputDecoration(hintText: "Search for salon services...".tr),
+                  decoration: Ui.getInputDecoration(hintText: "Search for Healer services...".tr),
                 ),
               ),
             ),

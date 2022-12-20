@@ -1,7 +1,8 @@
 /*
  * File name: packages_view.dart
- * Last modified: 2022.10.16 at 12:23:16
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 
@@ -51,8 +52,8 @@ class PackagesView extends GetView<PackagesController> {
           physics: const AlwaysScrollableScrollPhysics(),
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           children: <Widget>[
-            Text("Salon".tr, style: Get.textTheme.headline5),
-            Text("Select the salon".tr, style: Get.textTheme.caption).paddingOnly(top: 5),
+            Text("Healer".tr, style: Get.textTheme.headline5),
+            Text("Select the Healer".tr, style: Get.textTheme.caption).paddingOnly(top: 5),
             Obx(() {
               if (controller.salons.length > 1)
                 return Container(
@@ -72,7 +73,7 @@ class PackagesView extends GetView<PackagesController> {
                         children: [
                           Expanded(
                             child: Text(
-                              "Salons".tr,
+                              "Healers".tr,
                               style: Get.textTheme.bodyText1,
                               textAlign: TextAlign.start,
                             ),
@@ -83,7 +84,7 @@ class PackagesView extends GetView<PackagesController> {
                                 context: context,
                                 builder: (BuildContext context) {
                                   return SelectDialog(
-                                    title: "Select Salon".tr,
+                                    title: "Select Healers".tr,
                                     submitText: "Submit".tr,
                                     cancelText: "Cancel".tr,
                                     items: controller.getSelectSalonsItems(),
@@ -113,7 +114,7 @@ class PackagesView extends GetView<PackagesController> {
                           return Padding(
                             padding: EdgeInsets.symmetric(vertical: 20),
                             child: Text(
-                              "Select salons".tr,
+                              "Select Healers".tr,
                               style: Get.textTheme.caption,
                             ),
                           );
@@ -149,7 +150,7 @@ class PackagesView extends GetView<PackagesController> {
                     subscriptionPackage: controller.subscriptionPackages.elementAt(index),
                     onTap: (subscriptionPackage) async {
                       if (controller.salonSubscription.value.salon == null) {
-                        Get.showSnackbar(Ui.defaultSnackBar(message: "Please Select a Salon!".tr));
+                        Get.showSnackbar(Ui.defaultSnackBar(message: "Please Select a Healer!".tr));
                       } else {
                         controller.salonSubscription.update((val) {
                           val.subscriptionPackage = subscriptionPackage;

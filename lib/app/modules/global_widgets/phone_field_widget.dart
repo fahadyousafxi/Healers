@@ -1,7 +1,8 @@
 /*
  * File name: phone_field_widget.dart
- * Last modified: 2022.05.18 at 20:40:17
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 

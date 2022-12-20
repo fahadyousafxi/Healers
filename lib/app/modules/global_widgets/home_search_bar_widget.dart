@@ -1,7 +1,8 @@
 /*
  * File name: home_search_bar_widget.dart
- * Last modified: 2022.10.16 at 12:23:17
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 
@@ -37,7 +38,7 @@ class HomeSearchBarWidget extends StatelessWidget implements PreferredSize {
               ),
               Expanded(
                 child: Text(
-                  "Search for salon service...".tr,
+                  "Search for Healer service...".tr,
                   maxLines: 1,
                   softWrap: false,
                   overflow: TextOverflow.fade,

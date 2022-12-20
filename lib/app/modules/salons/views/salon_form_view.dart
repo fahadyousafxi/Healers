@@ -1,7 +1,8 @@
 /*
  * File name: salon_form_view.dart
- * Last modified: 2022.10.16 at 12:23:16
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 
@@ -32,7 +33,7 @@ class SalonFormView extends GetView<SalonFormController> {
         appBar: AppBar(
           title: Obx(() {
             return Text(
-              controller.isCreateForm() ? "New Salon".tr : controller.salon.value.name ?? '',
+              controller.isCreateForm() ? "New Healer".tr : controller.salon.value.name ?? '',
               style: context.textTheme.headline6,
             );
           }),
@@ -58,7 +59,7 @@ class SalonFormView extends GetView<SalonFormController> {
                     context: context,
                     builder: (BuildContext context) {
                       return ConfirmDialog(
-                        title: "Delete Salon".tr,
+                        title: "Delete Healer".tr,
                         content: "Are you sure you want to delete this salon?".tr,
                         submitText: "Confirm".tr,
                         cancelText: "Cancel".tr,
@@ -223,7 +224,7 @@ class SalonFormView extends GetView<SalonFormController> {
                             children: [
                               Expanded(
                                 child: Text(
-                                  "Salon Levels".tr,
+                                  "Healer Levels".tr,
                                   style: Get.textTheme.bodyText1,
                                   textAlign: TextAlign.start,
                                 ),
@@ -234,7 +235,7 @@ class SalonFormView extends GetView<SalonFormController> {
                                     context: context,
                                     builder: (BuildContext context) {
                                       return SelectDialog(
-                                        title: "Select Salon Level".tr,
+                                        title: "Select Healer Level".tr,
                                         submitText: "Submit".tr,
                                         cancelText: "Cancel".tr,
                                         items: controller.getSelectSalonLevelsItems(),
@@ -264,7 +265,7 @@ class SalonFormView extends GetView<SalonFormController> {
                               return Padding(
                                 padding: EdgeInsets.symmetric(vertical: 20),
                                 child: Text(
-                                  "Select salons".tr,
+                                  "Select Healers".tr,
                                   style: Get.textTheme.caption,
                                 ),
                               );

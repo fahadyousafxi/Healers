@@ -1,7 +1,8 @@
 /*
  * File name: filter_bottom_sheet_widget.dart
- * Last modified: 2022.02.27 at 23:37:17
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 

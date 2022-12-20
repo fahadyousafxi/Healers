@@ -1,7 +1,8 @@
 /*
  * File name: languages_loader_widget.dart
- * Last modified: 2022.03.10 at 21:33:53
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 

@@ -1,7 +1,8 @@
 /*
  * File name: e_service_form_view.dart
- * Last modified: 2022.10.16 at 12:23:17
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Last modified: 2022.12.12
+ * Author: Ditlou tsa Molongoana
+ * App Name: The sixth sense
  * Copyright (c) 2022
  */
 
@@ -153,7 +154,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                   onSaved: (input) => controller.eService.value.name = input,
                   validator: (input) => input.length < 3 ? "Should be more than 3 letters".tr : null,
                   initialValue: controller.eService.value.name,
-                  hintText: "Post Party Cleaning".tr,
+                  hintText: "Name your Healer Service".tr,
                   labelText: "Name".tr,
                 ),
                 TextFieldWidget(
@@ -161,7 +162,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                   validator: (input) => input.length < 3 ? "Should be more than 3 letters".tr : null,
                   keyboardType: TextInputType.multiline,
                   initialValue: controller.eService.value.description,
-                  hintText: "Description for Post Party Cleaning".tr,
+                  hintText: "Description for your Healer Service".tr,
                   labelText: "Description".tr,
                 ),
                 Container(
@@ -254,7 +255,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                             children: [
                               Expanded(
                                 child: Text(
-                                  "Salons".tr,
+                                  "Healers".tr,
                                   style: Get.textTheme.bodyText1,
                                   textAlign: TextAlign.start,
                                 ),
@@ -265,7 +266,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                                     context: context,
                                     builder: (BuildContext context) {
                                       return SelectDialog(
-                                        title: "Select Salon".tr,
+                                        title: "Select Healers".tr,
                                         submitText: "Submit".tr,
                                         cancelText: "Cancel".tr,
                                         items: controller.getSelectSalonsItems(),
@@ -295,7 +296,7 @@ class EServiceFormView extends GetView<EServiceFormController> {
                               return Padding(
                                 padding: EdgeInsets.symmetric(vertical: 20),
                                 child: Text(
-                                  "Select salons".tr,
+                                  "Select Healers".tr,
                                   style: Get.textTheme.caption,
                                 ),
                               );
